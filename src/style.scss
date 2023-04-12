@@ -38,7 +38,7 @@ body {
   text-decoration: none;
   font-family: "Fraunces", sans-serif;
   font-size: 1.2rem;
-  width: 220px;
+  width: 230px;
   font-weight: 700;
   text-align: center;
   display: inline-block;
@@ -948,6 +948,7 @@ body {
 
   .nav-bar {
     position: relative;
+    padding: 2rem 5%;
 
     .links {
       flex-direction: column;
@@ -1097,6 +1098,10 @@ body {
     .choice-btn {
       font-size: 1.5rem !important;
     }
+  }
+
+  .summary {
+    padding: 2rem;
   }
 }
 
