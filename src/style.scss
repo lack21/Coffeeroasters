@@ -717,6 +717,7 @@ body {
   place-content: center;
   background-color: $overlayColor;
   top: 0;
+  z-index: 2;
 
   &.active {
     display: grid;
@@ -1013,7 +1014,7 @@ body {
   }
 
   .how {
-    width: min(400px, 100%);
+    width: min(400px, 90%);
     margin: auto;
 
     &.second {
@@ -1116,6 +1117,16 @@ body {
   }
 
   .order-summary .container {
+    .heading,
+    .order-text,
+    .bottom-section {
+      padding: 2.25rem 1.5rem;
+    }
+
+    .text {
+      padding: 0 1.5rem;
+    }
+
     .price {
       display: none;
     }

@@ -652,6 +652,7 @@ body {
   place-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   top: 0;
+  z-index: 2;
 }
 .order-summary.active {
   display: grid;
@@ -919,7 +920,7 @@ body {
     text-align: center;
   }
   .how {
-    width: min(400px, 100%);
+    width: min(400px, 90%);
     margin: auto;
   }
   .how.second {
@@ -997,6 +998,14 @@ body {
   }
   .collection::after {
     font-size: 3rem;
+  }
+  .order-summary .container .heading,
+  .order-summary .container .order-text,
+  .order-summary .container .bottom-section {
+    padding: 2.25rem 1.5rem;
+  }
+  .order-summary .container .text {
+    padding: 0 1.5rem;
   }
   .order-summary .container .price {
     display: none;
